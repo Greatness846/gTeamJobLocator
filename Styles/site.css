@@ -1,0 +1,24 @@
+﻿body {
+    background-color: #745CA6;
+}
+.content-Container {
+    background-color: white;
+    margin-top:15px;
+}
+.gpHeaderImg {
+    width: 25%;
+    height:5%;
+}
+.instructions {
+    padding: 15px;
+    text-align-last:center;
+
+}
+.centerDiv {
+    width: 100%;
+    text-align: center;
+}
+required .control-label:after { 
+   content:"*";
+   color:red;
+}
