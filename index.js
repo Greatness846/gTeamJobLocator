@@ -26,4 +26,4 @@ app.post('/send', (req, res) => {
 
 });
 
-const server = app.listen(process.env.port || process.env.PORT || 3000, function(){console.log("Project Running"});
+app.listen(process.env.port || process.env.PORT || 3000, function(){console.log("Project Running")});
