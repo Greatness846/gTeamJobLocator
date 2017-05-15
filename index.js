@@ -4,8 +4,8 @@ const app = express();
 
 const Nexmo = require('nexmo');
 const nexmo = new Nexmo({
-  apiKey: '1be0d188',
-  apiSecret: 'a19666f4552cc9c5'
+  apiKey: '',
+  apiSecret: ''
 });
 
 app.use(bodyParser.json());
